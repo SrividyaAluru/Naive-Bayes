@@ -1,9 +1,11 @@
 # Naive-Bayes
 Data Preprocessing:
- Special characters were removed using regular expression.
- All the words were converted to lower case so as to not differentiate between words like The,THE,the.
- Stopwords were removed.
- Laplacian smoothening was used to avoid zero probability (Every word had at least one minimum occurrence in both positive and negative words)
+Special characters were removed using regular expression.
+All the words were converted to lower case so as to not differentiate between words like The,THE,the.
+Stopwords were removed.
+Laplacian smoothening was used to avoid zero probability (Every word had at least one minimum occurrence in both positive and negative words)
+
+Results:
 Without preprocessing the accuracy was around 69%.
 After preprocessing Mean Accuracy:80.70%
 Final Result: Accuracies: [77.0, 75.0, 85.0, 77.0, 86.0, 81.0, 84.0, 85.0, 76.0, 81.0]
